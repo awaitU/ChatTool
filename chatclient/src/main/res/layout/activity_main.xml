@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/showMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里显示消息内容"/>
+    <EditText
+        android:id="@+id/clientIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入需要建立连接服务端IP"/>
+    <EditText
+        android:id="@+id/sendMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入需要传输的数据"/>
+    <Button
+        android:id="@+id/saveIPAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存IP地址"/>
+    <Button
+        android:id="@+id/buildConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="建立连接操作"/>
+    <Button
+        android:id="@+id/btn_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息" />
+    <Button
+        android:id="@+id/btn_get_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取消息" />
+    <TextView
+        android:id="@+id/socketStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Socket status ：false"/>
+</LinearLayout>

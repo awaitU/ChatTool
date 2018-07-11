@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatClient</string>
+    <string name="socketTrue">Socket status ：true</string>
+    <string name="socketFalse">Socket status ：false</string>
+</resources>

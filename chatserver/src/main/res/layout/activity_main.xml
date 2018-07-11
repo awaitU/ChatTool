@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这里显示消息内容" />
+    <EditText
+        android:id="@+id/inputMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/submitSendSmg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息"
+        android:onClick="submitMsg"/>
+    <Button
+        android:id="@+id/readMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取消息"
+        android:onClick="readMsg"/>
+</LinearLayout>
